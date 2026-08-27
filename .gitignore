@@ -1,0 +1,37 @@
+# --- Entornos y variables sensibles ---
+.env
+.env.*
+*.key
+credentials.json
+config_local.py
+
+# --- Entornos virtuales ---
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+
+# --- Archivos temporales / basura ---
+*.tmp
+*.log
+*.bak
+New folder/
+
+# --- Modelos entrenados y artefactos pesados (opcional, descomentar si aplica) ---
+# *.pkl
+# *.h5
+# *.joblib
+
+# --- Comprimidos que no deben subirse al repo ---
+*.zip
